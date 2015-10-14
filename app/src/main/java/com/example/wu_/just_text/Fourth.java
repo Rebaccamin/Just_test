@@ -36,7 +36,7 @@ public class Fourth extends Activity implements MyFragment5.MyListener {
                         .beginTransaction();
                 beginTransaction.add(R.id.layout, fragment5);
                 beginTransaction.commit();
-                Toast.makeText(Fourth.this, "向Fragment发送数据" + text,
+                Toast.makeText(Fourth.this, "向FragmentSDDDSS发送数据" + text,
                         Toast.LENGTH_SHORT).show();
             }
         });
